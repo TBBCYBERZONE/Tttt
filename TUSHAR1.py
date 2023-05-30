@@ -330,17 +330,17 @@ logo = ("""
 
 \033[1;94m       [+]==============================================[+]
 
-\033[1;94m       [+]        CREATED BY   :  TUSHAR               \033[1;94m.              [+]
+\033[1;94m       [+]        CREATED BY   :  TUSHAR               \033[1;94m.       [+]
 
-\033[1;94m       [+]        ON GITHUB    :  TBBCYBERZONE               \033[1;94m.  [+]
+\033[1;94m       [+]        ON GITHUB    :  TBBCYBERZONE               \033[1;94m.[+]
 
-\033[1;94m       [+]        TEAM         :  TBB CYBER ZONE        \033[1;94m.           [+]
+\033[1;94m       [+]        TEAM         :  TBB CYBER ZONE        \033[1;94m.    [+]
 
-\033[1;94m       [+]        TOOL VERSION :  1.0.1                    \033[1;94m.             [+]
+\033[1;94m       [+]        TOOL VERSION :  1.0.1                    \033[1;94m.        [+]
 
-\033[1;94m       [+]        TOOL STATUS  :  RANDOM CLONING         \033[1;94m  [+]
+\033[1;94m       [+]        TOOL STATUS  :  RANDOM CLONING         \033[1;94m[+]
 
-\033[1;94m       [+]        COUNTRY      :  BANGLADESH             \033[1;94m.         [+]
+\033[1;94m       [+]        COUNTRY      :  BANGLADESH             \033[1;94m.   [+]
 
 \033[1;94m       [+]===============================================[+]
 
@@ -516,7 +516,7 @@ def rcrack1(uid,pwx,tl):
 
             'cache-control': 'max-age=0',
 
-            'referer': 'https://www.google.com/',
+            'referer': 'https://mbasic.facebook.com/',
 
             'sec-ch-prefers-color-scheme': 'light',
 
